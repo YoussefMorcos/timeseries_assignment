@@ -1,0 +1,7 @@
+CREATE TABLE time_series (
+    id SERIAL PRIMARY KEY,
+    ts TIMESTAMP NOT NULL,
+    source VARCHAR(255) NOT NULL,
+    measure VARCHAR(255) NOT NULL,
+    float_value DOUBLE PRECISION NOT NULL
+);
