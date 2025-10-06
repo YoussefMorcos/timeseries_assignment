@@ -18,23 +18,23 @@ docker-compose up
 #### Frontend
 | Filename | Description |
 |----------|-------------|
-| [data-render.tsx](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/frontend/src/app/data-render.tsx) | The UI |
-| [api.ts](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/frontend/src/app/api.ts) | The API |
-| [page.tsx](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/frontend/src/app/page.tsx) | Main Page, data fetching |
+| [data-render.tsx](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/frontend/src/app/data-render.tsx) | The UI |
+| [api.ts](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/frontend/src/app/api.ts) | The API |
+| [page.tsx](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/frontend/src/app/page.tsx) | Main Page, data fetching |
 
 #### Backend
 | Filename | Description |
 |----------|-------------|
-| [TSController.java](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/backend/src/main/java/com/example/backend/TSController.java) | REST controller defining endpoints |
-| [TSService.java](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/backend/src/main/java/com/example/backend/TSService.java) | Service layer handling logic for data processing |
-| [TSEntity.java](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/backend/src/main/java/com/example/backend/TSEntity.java) | JPA entity representing the data model for the database |
-| [TSRepository.java](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/backend/src/main/java/com/example/backend/TSRepository.java) | Spring Data repository interface for database operations on the data |
+| [TSController.java](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/backend/src/main/java/com/example/backend/TSController.java) | REST controller defining endpoints |
+| [TSService.java](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/backend/src/main/java/com/example/backend/TSService.java) | Service layer handling logic for data processing |
+| [TSEntity.java](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/backend/src/main/java/com/example/backend/TSEntity.java) | JPA entity representing the data model for the database |
+| [TSRepository.java](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/backend/src/main/java/com/example/backend/TSRepository.java) | Spring Data repository interface for database operations on the data |
 
 
 #### Database
 | Filename | Description |
 |----------|-------------|
-| [script.sql](https://github.com/YoussefMorcos/take_home_assignment_timeseries/blob/main/db/script.sql) | SQL script to initialize the PostgreSQL database schema |
+| [script.sql](https://github.com/YoussefMorcos/timeseries_assignment/blob/main/db/script.sql) | SQL script to initialize the PostgreSQL database schema |
 
 ## Assumptions Made
 - Files might have the same name uploaded --> concat a number next to the original filename to represent that its a copy, escpecially if the data is exported from a source that uses the same filename everytime assumed (similar to operating systems)
